@@ -1,0 +1,5 @@
+name: London Joinery
+markdown: redcarpet
+pygments: true
+exclude : ['vendor', 'Gemfile*', 'bin', 'README.md']
+include : ['_wsb*']
