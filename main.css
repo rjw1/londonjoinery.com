@@ -1,0 +1,273 @@
+/*----------------------------------------------------------------------------
+	main.css
+
+	this css-file contains all definitions, that are independend from the
+	colorschemes.
+
+	(c) Schlund + Partner AG
+
+
+	----------------------------------------------------------------------
+	Modified and extended by Barti Bartman for the Sports-Template
+
+	This CSS-File uses the original "Tanteks Box Modell Hack"
+	http://www.tantek.com/CSS/Examples/boxmodelhack.html
+
+	NOTE:
+	Older W3C CSS validators return errors when the voice-family property
+	is used in a 'screen' style sheet. This is an error in the W3C CSS
+	validator itself. The validator should report a warning, not an error,
+	when properties which are unsupported by a particular medium are used,
+	and this has been reported to the W3C:
+
+ ----------------------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------------------
+ styles for specific classes and ids
+----------------------------------------------------------------------------*/
+
+
+/*-- global container ------------------------------------------------------*/
+
+#container {
+	position: relative;
+	padding: 0;
+	margin: 0 auto;
+	text-align: left;
+	width: 800px;
+}
+
+/*-- main container: contains all between header and footer ----------------*/
+
+#main_container {
+	padding: 0;
+	position: relative;
+	margin: 0 0 25px 0;
+}
+
+/*--- the main container is devided in sub containers ----------------------*/
+
+#layout_table {
+	border-collapse: collapse;
+}
+
+#left_column {
+	vertical-align: top;
+}
+	
+#right_column {
+	vertical-align: top;
+}
+
+#sub_container2 {
+	margin: 0px 0 15px 15px;
+	padding: 0;
+	width: 580px;
+}
+
+#left_column_container {
+	margin: 18px 0 0 20px;
+	padding: 0;
+	width: 180px;
+}
+
+#content_container {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	width: 560px;
+	line-height: 1.3;
+}
+
+/*--- header ---------------------------------------------------------------*/
+
+#header	{
+/*	position: relative; */
+	padding: 0;
+	margin: 0;
+	width: 800px;
+	height: 82px;
+	top: 0px;
+	left: 0px;
+}
+
+/*--- key visual -----------------------------------------------------------*/
+
+#key_visual {
+	margin: 18px 0 0 0;
+	width: 560px;
+	height: 200px;
+}
+
+/*--- logo -----------------------------------------------------------------*/
+
+#logo {
+	width: 200px;
+	height: 40px;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+
+/*--- caption (as text or background image) --------------------------------*/
+
+#text_caption {
+	position: absolute;
+	top: 35px;
+	left: 240px;
+	width: 520px;
+	text-align: right;
+}
+
+/*--- main navigation ------------------------------------------------------*/
+
+#main_nav_container {
+	margin: 0;
+	padding: 0;
+}
+
+#main_nav_list {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#main_nav_list li {
+	margin: 0;
+	padding: 0;
+}
+
+/*--- main navigation items ------------------------------------------------*/
+/*--- added for button images navigation */
+a.navimain_current {
+	display:block;
+	width:180px;
+	height:24px;
+	padding:0;
+	margin: 0;
+	overflow: hidden;	
+	line-height: 24px;
+	vertical-align: middle;	
+}
+
+a.navimain_link {
+	display:block;
+	width:180px;
+	height:24px;
+	padding:0;
+	margin: 0;
+	overflow: hidden;	
+	line-height: 24px;
+	vertical-align: middle;	
+}
+
+a.navisub_current {
+	display:block;
+	width:180px;
+	height:24px;
+	padding:0px;
+	margin:0px;
+	border:0px;
+	overflow: hidden;	
+	line-height: 24px;
+	vertical-align: middle;	
+}
+
+a.navisub_link {
+	display:block;
+	width:180px;
+	height:24px;
+	padding:0px;
+	margin:0px;
+	border:0px;
+	overflow: hidden;	
+	line-height: 24px;
+	vertical-align: middle;	
+}
+
+/*--- container for the subnavigation --------------------------------------*/
+
+.sub_nav_container {
+	margin: 0;
+	padding: 0;
+}
+
+/*--- subnavigation --------------------------------------------------------*/
+
+.sub_nav_list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;	
+}
+
+.sub_nav_list li {
+	margin: 0;
+	padding: 0;
+}
+
+/*--- footer ---------------------------------------------------------------*/
+
+#footer {
+	margin: 0;
+	padding: 0;
+	width: 800px;
+	height: 54px;
+	clear: both;
+}
+
+#footer_text {
+	padding: 10px 0 0 0;
+	margin: 0 30px 0 30px;
+	text-align: center;
+}
+
+
+
+/*----------------------------------------------------------------------------
+  default-styles for html-elements
+----------------------------------------------------------------------------*/
+
+/*--- body -----------------------------------------------------------------*/
+
+body#main_body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+/*--- paragraph ------------------------------------------------------------*/
+
+.content p {
+	margin: 5px 0 20px 0;
+	padding: 0;
+}
+
+.content table {
+	border-style: dotted;
+	border-width: 1px;
+	border-spacing: 0;
+}
+
+/*--- forms ----------------------------------------------------------------*/
+
+.content fieldset {
+	padding: 15px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.content input {
+	border-style: solid;
+	border-width: 1px;
+}
+
+.content textarea {
+	border-style: solid;
+	border-width: 1px;
+}
+
+.hidden { display: none; }
+
+/*--------------------------------------------------------------------------*/

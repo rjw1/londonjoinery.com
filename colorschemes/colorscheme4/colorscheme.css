@@ -1,0 +1,167 @@
+/*----------------------------------------------------------------------------
+	colorscheme1.css for colorscheme 1
+
+	this css-file contains all definitions, that depend on the colorscheme.
+
+	(c) Schlund + Partner AG
+----------------------------------------------------------------------------*/
+
+
+/*-- main container --------------------------------------------------------*/
+
+#container {
+	background: #fff;
+}
+
+/*--- header ---------------------------------------------------------------*/
+#header	{
+	background : url(images/static/headerbg.gif) no-repeat;
+}
+
+/*--- main navigation ------------------------------------------------------*/
+#main_nav_container {
+
+}
+
+/*--- logo -----------------------------------------------------------------*/
+
+#logo {
+	background: no-repeat;
+}
+
+/*--- caption --------------------------------------------------------------*/
+
+#text_caption {
+	color: #fff;
+}
+
+/*--- main navigation ------------------------------------------------------*/
+
+#main_nav_list	{
+
+}
+
+
+/*--- footer ---------------------------------------------------------------*/
+
+#footer {
+	background: transparent url(images/static/footerbg.gif) top left no-repeat;
+}
+
+#footer_text {
+	color: #fff;
+}
+
+
+/*----------------------------------------------------------------------------
+  default-styles for html-elements
+----------------------------------------------------------------------------*/
+
+/*--- body -----------------------------------------------------------------*/
+
+body {
+	color: #000;
+	background : #222220;
+}
+
+/*--- paragraph ------------------------------------------------------------*/
+
+#content_container p {
+	color: #222220;
+}
+
+/*--- headings -------------------------------------------------------------*/
+
+#content_container h1 {
+	color: #900;
+}
+
+#content_container h2 {
+	color: #900;
+}
+
+#content_container h3 {
+	color: #900;
+}
+
+/*--- links ----------------------------------------------------------------*/
+
+#content_container a:link{
+	color: #900;
+}
+
+#content_container a:visited {
+	color: #900;
+}
+
+#content_container a:hover {
+	color: #c00;
+}
+
+#content_container a:active {
+	color: #900;
+}
+
+/*--- tables ---------------------------------------------------------------*/
+
+table {
+
+}
+
+th {
+
+}
+
+tr {
+
+}
+
+td {
+
+}
+
+#content_container table {
+	border-color: #999990;
+}
+
+#content_container th {
+	color: #fff;
+	background-color:#999990;
+	padding: 3px 2px 3px 2px;
+}
+
+#content_container tr.odd {
+	color: #222220;
+	background-color:#fff;
+	padding: 3px 2px 3px 2px;
+}
+
+#content_container tr.even {
+	color: #222220;
+	background-color:#eeeee0;
+	padding: 3px 2px 3px 2px;
+}
+
+/*--- forms ----------------------------------------------------------------*/
+
+fieldset {
+	border-color: #222220;
+}
+
+legend{
+	color: #222220;
+}
+
+label {
+	color: #222220;
+}
+
+input {
+	border-color: #222220;
+}
+
+textarea {
+	border-color: #222220;
+}
+
+/*--------------------------------------------------------------------------*/
