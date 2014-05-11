@@ -1,10 +1,10 @@
 
 a.navimain_link_1 {
-				   background: url(img15.png) no-repeat;
+				   background: url(img13.png) no-repeat;
 
 				}
 				a.navimain_link_1:hover {
-				   background: url(img16.png) no-repeat;
+				   background: url(img14.png) no-repeat;
 
 				}
 			a.navimain_link_2 {
@@ -40,23 +40,15 @@ a.navimain_link_1 {
 
 				}
 			a.navimain_current {
-				   background: url(img21.png) no-repeat;
-
-				}
-			a.navimain_link_8 {
-				   background: url(img11.png) no-repeat;
-
-				}
-				a.navimain_link_8:hover {
-				   background: url(img12.png) no-repeat;
+				   background: url(img19.png) no-repeat;
 
 				}
 			a.navimain_link_4 {
-				   background: url(img13.png) no-repeat;
+				   background: url(img11.png) no-repeat;
 
 				}
 				a.navimain_link_4:hover {
-				   background: url(img14.png) no-repeat;
+				   background: url(img12.png) no-repeat;
 
 				}
 			
